@@ -11,11 +11,10 @@ from answer-key lines ("Ans: D", "Answer - A", "Correct Answer: B").
 
 | File | Purpose |
 | --- | --- |
-| `app.py` | Flask wrapper: upload, parse, download |
+| `app.py` | Flask wrapper plus the embedded page HTML (PAGE constant) |
 | `quiz_formatter.py` | The parser itself (unchanged logic; Tkinter GUI still works locally) |
-| `templates/index.html` | Web UI |
 | `requirements.txt` | Flask, python-docx, gunicorn |
-| `runtime.txt` | Pins Python 3.12 on Render |
+| `.python-version` | Pins Python 3.12 on Render |
 
 ## Run locally
 
